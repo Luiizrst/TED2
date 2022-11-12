@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:\Repos\TED2\TrabalhoED2\out\build\x64-debug\
 
 build cmake_object_order_depends_target_TrabalhoED2: phony || CMakeFiles\TrabalhoED2.dir
 
-build CMakeFiles\TrabalhoED2.dir\TrabalhoED2.cpp.obj: CXX_COMPILER__TrabalhoED2_Debug D$:\Repos\TED2\TrabalhoED2\TrabalhoED2.cpp || cmake_object_order_depends_target_TrabalhoED2
+build CMakeFiles\TrabalhoED2.dir\main.cpp.obj: CXX_COMPILER__TrabalhoED2_Debug D$:\Repos\TED2\TrabalhoED2\main.cpp || cmake_object_order_depends_target_TrabalhoED2
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\TrabalhoED2.dir
   OBJECT_FILE_DIR = CMakeFiles\TrabalhoED2.dir
@@ -64,7 +64,7 @@ build CMakeFiles\TrabalhoED2.dir\TrabalhoED2.cpp.obj: CXX_COMPILER__TrabalhoED2_
 #############################################
 # Link the executable TrabalhoED2.exe
 
-build TrabalhoED2.exe: CXX_EXECUTABLE_LINKER__TrabalhoED2_Debug CMakeFiles\TrabalhoED2.dir\TrabalhoED2.cpp.obj
+build TrabalhoED2.exe: CXX_EXECUTABLE_LINKER__TrabalhoED2_Debug CMakeFiles\TrabalhoED2.dir\main.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
